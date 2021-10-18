@@ -1,0 +1,4 @@
+axmaster
+scripts/__pycache__
+*.o
+*~

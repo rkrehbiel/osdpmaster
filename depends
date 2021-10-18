@@ -1,0 +1,7 @@
+crc16.o: crc16.c crc16.h
+osdpmaster.o: osdpmaster.cpp osdpslave.h /usr/include/uuid/uuid.h blob.h \
+ katomic.h sync_queue.h osdpmaster.h log4cpp.h osdpprotocol.h osdp_def.h \
+ split.h
+osdpprotocol.o: osdpprotocol.cpp log4cpp.h crc16.h osdpprotocol.h \
+ osdp_def.h
+blob.o: blob.cpp katomic.h blob.h

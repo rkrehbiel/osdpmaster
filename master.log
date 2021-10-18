@@ -1,0 +1,3 @@
+10-18 08:26:17.642 osdpmaster startup
+10-18 08:26:17.666 Publishing status osdpiom/bus1/incoming/1/status = OFFLINE
+10-18 08:26:17.666 Failed to open /dev/ttyUSB0, waiting...
